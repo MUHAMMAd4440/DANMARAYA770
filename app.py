@@ -52,3 +52,4 @@ templates/quiz.html
     <button type="submit">Submit</button>
 </form>
 templates/result.html
+templates/result.html
