@@ -51,3 +51,4 @@ templates/quiz.html
     {% endfor %}
     <button type="submit">Submit</button>
 </form>
+templates/result.html
