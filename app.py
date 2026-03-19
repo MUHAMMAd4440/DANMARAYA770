@@ -9,3 +9,4 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 # CBT project by Bashir
+print("App started")
