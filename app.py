@@ -54,3 +54,4 @@ templates/quiz.html
 templates/result.html
 templates/result.html
 # CBT project by Bashir
+<p>Good luck!</p>
