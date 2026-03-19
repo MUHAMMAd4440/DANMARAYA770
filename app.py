@@ -41,3 +41,4 @@ if __name__ == '__main__':
 templates/index.html
 <h1>DANMARAYA CBT SYSTEM</h1>
 <a href="/quiz">Start Test</a>
+templates/quiz.html
