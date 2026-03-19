@@ -42,3 +42,12 @@ templates/index.html
 <h1>DANMARAYA CBT SYSTEM</h1>
 <a href="/quiz">Start Test</a>
 templates/quiz.html
+<form method="post">
+    {% for q in questions %}
+        <p>{{ q.question }}</p>
+        {% for option in q.options %}
+            <input type="radio" name="q{{ loop.parent.index0 }}" value="{{ option }}"> {{ option }}<br>
+        {% endfor %}
+    {% endfor %}
+    <button type="submit">Submit</button>
+</form>
