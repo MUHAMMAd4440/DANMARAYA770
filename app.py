@@ -11,3 +11,4 @@ if __name__ == '__main__':
 # CBT project by Bashir
 print("App started")
 return "Welcome to DANMARAYA CBT System"
+return "Welcome to DANMARAYA CBT System - Start Exam"
